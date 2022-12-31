@@ -56,7 +56,7 @@ Shader "Unlit/NewUnlitShader"
                 LIGHT_LOOP_BEGIN(lightsCount)
                     Light light = GetAdditionalLight(lightIndex, positionWS);
                     half3 lightColor = light.color * light.distanceAttenuation;
-                    vertexLightColor += LightingLambert(lightColor, light.direction, normalWS);
+                    vertexLightColor += LightingLambert(lightColor, light.direction, normalWS)*1.4;
                 LIGHT_LOOP_END
 
                 return vertexLightColor;
