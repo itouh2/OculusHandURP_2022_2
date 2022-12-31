@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: OcculutinPixel
+  m_Name: MyPassthroughLightingPixel
   m_Shader: {fileID: 4800000, guid: f906e11ce1c44fd687549031276d7a34, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
